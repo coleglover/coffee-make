@@ -1,6 +1,6 @@
 # coffee-make
 
-Use a SwitchBot Bot to press your coffee machine's power button from your Mac. Run it on demand from the terminal, put it on a recurring schedule, or trigger it via Siri.
+Use a SwitchBot Bot to press your coffee machine's power button from your Mac. Run it on demand from the terminal, put it on a recurring schedule, or trigger it via Siri (WIP).
 
 ## The `coffee` command
 
@@ -74,8 +74,6 @@ Scheduling uses macOS `launchd`, so it survives reboots and needs no third-party
 - Times accept `7:00am`, `14:30`, `7am`, etc.
 - Days accept `weekdays`, `weekends`, `all`, or a comma list like `mon,wed,fri`.
 - `all` overwrites the whole schedule. Anything else only overwrites the days you selected — so a `weekdays` entry and a `weekends` entry coexist.
-- Scheduled runs only fire while your Mac is awake. To keep it awake on power: System Settings → Battery → Options → "Prevent automatic sleeping on power adapter when the display is off".
-- Scheduled-run logs: `/tmp/coffee.log` and `/tmp/coffee.err`.
 
 ## Extras (not included in this repo)
 
@@ -93,6 +91,3 @@ Scheduling uses macOS `launchd`, so it survives reboots and needs no third-party
 
 To uninstall: `coffee schedule clear`, then remove the `# >>> coffee CLI >>>` block from `~/.zshrc`.
 
-## License
-
-No license included — pick one before publishing (MIT is a reasonable default for small utilities like this).
