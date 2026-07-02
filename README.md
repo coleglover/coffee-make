@@ -1,4 +1,4 @@
-# make-coffee
+# coffee-make
 
 Use a SwitchBot Bot to press your coffee machine's power button from your Mac. Run it on demand from the terminal, put it on a recurring schedule, or trigger it via Siri.
 
@@ -28,8 +28,8 @@ Scheduling uses macOS `launchd`, so it survives reboots and needs no third-party
 1. **Clone the repo**
 
    ```
-   git clone https://github.com/<you>/switchbot-coffee.git
-   cd switchbot-coffee
+   git clone https://github.com/<you>/coffee-make.git
+   cd coffee-make
    ```
 
 2. **Install Python dependencies.** PySwitchbot doesn't work with bleak ≥ 1.0 yet, so pin bleak below it:
