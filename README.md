@@ -1,6 +1,6 @@
 # coffee-make
 
-Use a SwitchBot Bot to press your coffee machine's power button from your Mac. Run it on demand from the terminal, put it on a recurring schedule, or trigger it via Siri (WIP).
+Press your coffee machine's power button from your Mac using a [Switchbot bot](https://ca.switch-bot.com/products/switchbot-bot?_psq=switchbot+bot&_v=1.0). Run it on demand from the terminal, put it on a recurring schedule, or trigger it via Siri (WIP).
 
 ## The `coffee` command
 
